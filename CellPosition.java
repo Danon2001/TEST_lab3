@@ -93,7 +93,7 @@ public class CellPosition
     {
         
         HashMap<Direction, int [] > offset=  new  HashMap<Direction, int [] >();
-        
+        //new comment
         offset.put(Direction.north(),   new int []{ 0, -1} );
         offset.put(Direction.south(),   new int []{ 0,  1} );
         offset.put(Direction.east(),    new int []{ 1,  0} );
